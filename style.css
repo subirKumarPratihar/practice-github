@@ -39,3 +39,11 @@ a:hover {
   color: hsl(0, 0%, 80%);
 }
 
+main h2 {
+  text-align: center;
+  text-decoration: underline dotted 1px;
+}
+
+footer p{
+  text-align: center;
+}
