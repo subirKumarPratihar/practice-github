@@ -1,12 +1,9 @@
 body {
-  background-color: #272822;
-  color: whitesmoke;
   line-height: 1.5;
   font-family: 'Courier New', Courier, monospace;
 }
 
 a {
-  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -35,8 +32,14 @@ nav li {
   list-style: none;
 }
 
+nav a{
+  color: black;
+}
+
 a:hover {
-  color: hsl(0, 0%, 80%);
+  /* color: hsl(0, 0%, 80%); */
+  text-shadow: .1px .1px .5px black;
+  text-decoration: underline 1px;
 }
 
 main h2 {
